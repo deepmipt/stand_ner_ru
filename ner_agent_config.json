@@ -1,0 +1,22 @@
+{
+	"kpi_name":"kpi3_2",
+    "api_host":"0.0.0.0",
+    "api_port":6004,
+    "api_debug":0,
+	"kpis":
+	{
+		"kpi3_2":
+		{
+			"settings_kpi":
+				{
+					"rest_url":"http://api.aibotbench.com/kpi3/qas"
+				},
+			"settings_agent":
+				{
+					"model_dir":"model",
+					"update_model":0,
+					"test_tasks_number":5
+				}
+		}
+	}
+}

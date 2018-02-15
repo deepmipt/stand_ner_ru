@@ -1,4 +1,4 @@
-# Demo stand. Model: NER (English)
+# Demo stand. Model: NER (Russian)
 
 ## Installation and start
 1. Clone the repo and `cd` to project root:

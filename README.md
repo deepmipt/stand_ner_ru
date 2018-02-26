@@ -28,3 +28,21 @@
     ```
     ./run_ru_ner.sh
     ```
+## Building and running with Docker:
+1. If necessary, build Base Docker image from:
+
+   https://github.com/deepmipt/stand_docker_cuda
+  
+2. Clone the repo and `cd` to project root:
+    ```
+    git clone https://github.com/deepmipt/stand_ner_ru.git
+    cd stand_ner_ru
+    ```
+3. Build Docker image:
+   ```
+   sudo docker build -t stand/ner_ru .
+   ```
+4. Run Docker image:
+   ```
+   sudo docker run -p <host_port>:6004 -v /path/to/host/vol/map/dir:/vol stand/ner_ru
+   ```

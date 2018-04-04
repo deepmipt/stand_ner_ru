@@ -44,5 +44,5 @@
    ```
 4. Run Docker image:
    ```
-   sudo docker run -p <host_port>:6004 -v /path/to/host/vol/map/dir:/vol stand/ner_ru
+   sudo docker run -p <host_port>:6004 -v </path/to/host/vol/map/dir>:/logs stand/ner_ru
    ```
